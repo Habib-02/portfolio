@@ -37,6 +37,7 @@ body {
   background-color: var(--primary-color);
   color: var(--body-text-color);
   font-size: var(--primary-font-size-body);
+  overflow-x: hidden;
 }
 .wrapper {
   max-width: 1100px;
