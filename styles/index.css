@@ -287,7 +287,7 @@ header::before {
   color: var(--body-text-color);
   font-size: 1.6rem;
 }
-.skills::before {
+/* .skills::before {
   content: "";
   width: 530px;
   height: 130px;
@@ -298,7 +298,7 @@ header::before {
   bottom: -8rem;
   right: 0;
   transform: translate(50%);
-}
+} */
 
 /* Tablet Layout */
 @media screen and (min-width: 768px) {
@@ -326,7 +326,7 @@ header::before {
   .skills-wrapper {
     position: relative;
   }
-  /* .skills-wrapper .decoration-block::before {
+  .skills-wrapper .decoration-block::before {
     content: "";
     width: 530px;
     height: 130px;
@@ -337,7 +337,7 @@ header::before {
     right: 0;
     transform: translateX(45%);
     bottom: 0;
-  } */
+  }
 }
 
 /* SKILLS SECTION STYLE END */
