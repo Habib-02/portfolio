@@ -284,6 +284,7 @@ header::before {
 }
 .skills::before {
   content: "";
+  display: block;
   width: 530px;
   height: 130px;
   background-image: url("../assets/pattern-2.svg");
@@ -292,7 +293,7 @@ header::before {
   position: absolute;
   bottom: -8rem;
   right: 0;
-  transform: translate(50%);
+  /* transform: translate(50%); */
 }
 
 /* Tablet Layout */
