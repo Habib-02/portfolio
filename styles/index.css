@@ -82,7 +82,7 @@ header {
   padding: 4rem 0;
   /* position: relative; */
 }
-header .wrapper {
+header .header-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -158,9 +158,6 @@ header::before {
 
 /* Teblet Layout */
 @media screen and (min-width: 768px) and (max-width: 1100px) {
-  .header-wrapper {
-    padding-right: 0;
-  }
   header ul i {
     font-size: 2.5rem;
   }
@@ -211,7 +208,7 @@ header::before {
   header ul i {
     font-size: 2.8rem;
   }
-  header .wrapper {
+  header .header-flex {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
