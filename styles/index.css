@@ -37,7 +37,6 @@ body {
   background-color: var(--primary-color);
   color: var(--body-text-color);
   font-size: var(--primary-font-size-body);
-  overflow-x: hidden;
 }
 .wrapper {
   max-width: 1100px;
@@ -282,7 +281,7 @@ header::before {
   color: var(--body-text-color);
   font-size: 1.6rem;
 }
-/* .skills::before {
+.skills::before {
   content: "";
   width: 530px;
   height: 130px;
@@ -293,7 +292,7 @@ header::before {
   bottom: -8rem;
   right: 0;
   transform: translate(50%);
-} */
+}
 
 /* Tablet Layout */
 @media screen and (min-width: 768px) {
@@ -304,10 +303,10 @@ header::before {
     padding: 5rem 0;
     border-bottom: none;
   }
-  /* .skills::before {
+  .skills::before {
     bottom: -1rem;
     transform: translate(65%);
-  } */
+  }
 }
 
 /* Desktop Layout */
@@ -315,13 +314,13 @@ header::before {
   .skills {
     grid-template-columns: repeat(3, 1fr);
   }
-  /* .skills::before {
+  .skills::before {
     display: none;
-  } */
-  /* .skills-wrapper {
+  }
+  .skills-wrapper {
     position: relative;
-  } */
-  /* .skills-wrapper .decoration-block::before {
+  }
+  .skills-wrapper .decoration-block::before {
     content: "";
     width: 530px;
     height: 130px;
@@ -332,7 +331,7 @@ header::before {
     right: 0;
     transform: translateX(45%);
     bottom: 0;
-  } */
+  }
 }
 
 /* SKILLS SECTION STYLE END */
@@ -351,6 +350,9 @@ header::before {
 .projects-showcase__header h2 {
   font-size: 4rem;
   color: var(--heading-color);
+}
+.projects-showcase__header button {
+  display: none;
 }
 .projects-showcase__body {
   display: grid;
